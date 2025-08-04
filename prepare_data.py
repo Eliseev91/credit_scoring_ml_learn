@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 
 def load_and_prepare_data():
     # Загрузка данных
+
     df = pd.read_csv('data/credit_data.csv')
 
     # 1. Отделяем целевую переменную
